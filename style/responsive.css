@@ -1,0 +1,205 @@
+/* @media only screen and (min-width:992px){
+    .items-1{
+        background-color: #a89ede;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+} */
+@media only screen and (max-width:1200px){
+    /* --------- header --------- */
+
+    .header-btn{
+        width: 75.5%;
+        margin-left: 0;
+    }
+
+    /* ------------ header  End --------- */
+
+    /* --------- services start------------------- */
+    /* ------------services End---------------------- */
+}
+@media only screen and (max-width:992px){
+    /* --------- header --------- */
+    .header-btn{
+        width: 100%;
+        margin-left: 0;
+    }
+    .menu-icon{
+        display: flex;
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+        justify-content: end;
+        margin-top: -92px;
+    }
+    .lists-items{
+        display: none;
+        background: linear-gradient(to bottom,#5b3f9a,#a89ede);
+        position: fixed;
+        height: 100%;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        z-index: 1000;
+    }
+    .header-btn{
+        border-radius: 5px;
+    }
+    .items:last-child{
+        text-align: center;
+        margin-left: 15px;
+    }
+    .header-img{
+        padding-top: 200px;
+    }
+    .header-select{
+        border-radius: 5px;
+    }
+    .inp{
+        border-radius: 5px;
+    }
+    /* ------------ header  End --------- */
+
+    /* --------- services start------------------- */
+    .col-services-1{
+        order: 1;
+    }
+    .col-services-2{
+        order: 0;
+        margin-top: 70px;
+    }
+    /* ------------services End---------------------- */
+}
+@media only screen and (max-width:768px){
+    /* --------- header --------- */
+    .header-btn{
+        width: 100%;   
+    }
+    .inp{
+        width: 100%;
+    }
+    .header-select{
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .all-col-header{
+        text-align: center;
+        order: 1;
+        margin-top: -114px;
+        
+    }
+    .header-img{
+        order: 0;
+        padding-top: 0;
+    }
+    /* ------------ header  End --------- */
+
+    /* --------- services 
+    start------------------- */
+    .services-section{
+        
+    }
+    /* ------------services End---------------------- */
+    /* -------------plan start ------------------------- */
+    .plan-box{
+        height: 550px;
+        border-top:    #384170 solid 8px ;
+
+    }
+    /* ---------------plan End------------------ */
+}
+@media only screen and (max-width:576px){
+    /* --------- header --------- */
+    .header-h1{
+        font-size: 22px;
+        margin-top: 90px;
+    }
+    .header-p{
+        font-size: 18px;
+    }
+    .inp{
+        width: 90%;
+        height: 40px;
+    }
+    .inp::placeholder{
+        font-size: 12px;
+    }
+    .header-select{
+        width: 90%;
+        height: 40px;
+    }
+    .header-btn{
+        height: 40px;
+        width: 90%;
+    }
+    .header-btn a{
+        font-size: 13px;
+    }
+    /* ------------ header  End --------- */
+    footer{
+        text-align: center;
+    }
+    .foot-socials{
+        display: block;
+    }
+    
+    /* --------- services start------------------- */
+    .services-h1{
+        font-size: 25px;
+    }
+    .services-p{
+        font-size: 18px;
+    }
+    .h3-title{
+        font-size: 17px;
+    }
+    .p-title{
+        font-size: 15px;
+    }
+    .servic-img{
+        width: 50px;
+    }
+    .start-a{
+        max-width: 400px;
+    }
+    /* ------------services End---------------------- */
+    /* --------brand-------- */
+    .brand-item img{
+        width: 133px;
+    }
+
+    /* --------plan -------------------- */
+    .start-h1{
+        font-size: 25px;
+    }
+    .start-p{
+        font-size: 18px;
+    }
+    /* --------------------------- */
+
+    /* ----------plan------------ */
+    .plan-h1{
+        font-size: 25px;
+    }
+    .plan-p{
+        font-size: 18px;
+    }
+    /* --------comment----------- */
+    .com-h1{
+        font-size: 25px;
+    }
+    .com-p{
+        font-size: 18px;
+    }
+    /* ----------brand ------- */
+
+    .brand-h1{
+        font-size: 25px;
+    }
+    .brand-p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .brand-item{
+        height: 93px;
+    }
+}
